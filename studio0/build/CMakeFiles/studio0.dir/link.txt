@@ -1,0 +1,1 @@
+/project/compute/compilers/gcc-8.3.0/bin/g++ -g CMakeFiles/studio0.dir/studio0.cpp.o -o studio0 
