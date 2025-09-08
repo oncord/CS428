@@ -6,8 +6,7 @@ add_executable(${PROJ}
     lab0.cpp
     HoldEmDeck.cpp
     PinochleDeck.cpp
-    suits.cpp
-    card.cpp
+    suit.cpp
 )
 set_target_properties(${PROJ} PROPERTIES
     CXX_STANDARD 17

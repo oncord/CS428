@@ -8,14 +8,13 @@ struct Card {
     R rank;
     S suit;
 
-    Card(R r, S s);
+    Card(R r, S s) : rank(r), suit(s) {}
 };
 
 template <typename R, typename S>
-std::ostream& operator<<(std::ostream& os, const Card<R, S>& card);
-
-#ifdef TEMPLATE_HEADERS_INCLUDE_SOURCE
-#include "card.cpp"
-#endif
+std::ostream& operator<<(std::ostream& os, const Card<R, S>& card) {
+    os << card.rank << card.suit;
+    return os;
+}
 
 #endif // CARD_H

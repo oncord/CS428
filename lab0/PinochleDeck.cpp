@@ -1,6 +1,8 @@
 #include "PinochleDeck.h"
 #include <iostream>
 
+const int PINOCHLE_CUTOFF = 8;
+
 // output stream operator for PinochleRank
 std::ostream& operator<<(std::ostream& os, const PinochleRank& rank) {
     switch(rank) {
@@ -60,12 +62,12 @@ void PinochleDeck::print(std::ostream& os) {
         os << card << " ";
         cardCount++;
         // add line break every 8 cards 
-        if (cardCount % 8 == 0) {
+        if (cardCount % PINOCHLE_CUTOFF == 0) {
             os << std::endl;
         }
     }
     // add final newline if the last line not complete
-    if (cardCount % 8 != 0) {
+    if (cardCount % PINOCHLE_CUTOFF != 0) {
         os << std::endl;
     }
 }

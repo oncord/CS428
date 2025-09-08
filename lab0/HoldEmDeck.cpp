@@ -1,6 +1,8 @@
 #include "HoldEmDeck.h"
 #include <iostream>
 
+const int HOLD_EM_CUTOFF = 13;
+
 // output stream operator for HoldEmRank
 std::ostream& operator<<(std::ostream& os, const HoldEmRank& rank) {
     switch(rank) {
@@ -77,12 +79,12 @@ void HoldEmDeck::print(std::ostream& os) {
         os << card << " ";
         cardCount++;
         // add line break every 13 cards 
-        if (cardCount % 13 == 0) {
+        if (cardCount % HOLD_EM_CUTOFF == 0) {
             os << std::endl;
         }
     }
     // add final newline if the last line not complete
-    if (cardCount % 13 != 0) {
+    if (cardCount % HOLD_EM_CUTOFF != 0) {
         os << std::endl;
     }
 }

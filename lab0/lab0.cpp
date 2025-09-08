@@ -2,6 +2,8 @@
 #include "PinochleDeck.h"
 #include "HoldEmDeck.h"
 
+const int SUCCESS = 0;
+
 using namespace std;
 
 int main() {
@@ -18,5 +20,5 @@ int main() {
     cout << "Texas Hold'em Deck (52 cards | 1 of each rank/suit combination):" << endl;
     holdEmDeck.print(cout);
     
-    return 0;
+    return SUCCESS;
 }
