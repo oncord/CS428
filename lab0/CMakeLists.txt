@@ -3,10 +3,11 @@ set(PROJ lab0)
 set(CMAKE_BUILD_TYPE Debug)
 project(${PROJ})
 add_executable(${PROJ}
-    ${PROJ}.cpp
+    lab0.cpp
     HoldEmDeck.cpp
     PinochleDeck.cpp
-    Suit.cpp
+    suits.cpp
+    card.cpp
 )
 set_target_properties(${PROJ} PROPERTIES
     CXX_STANDARD 17

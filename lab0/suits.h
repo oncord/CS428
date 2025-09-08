@@ -13,9 +13,9 @@ enum class Suit {
 };
 
 // output stream operator for displaying Suit
-ostream& operator<<(ostream& o, &Suit s);
+std::ostream& operator<<(std::ostream& os, const Suit& suit);
 
-// increment Suit 
+// prefix increment operator for Suit
 Suit& operator++(Suit& suit);
 
 #endif // SUITS_H

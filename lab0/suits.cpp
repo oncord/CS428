@@ -1,24 +1,23 @@
 #include "suits.h"
 #include <iostream>
 
-using namespace std;
-
-ostream& operator<<(ostream& os, &Suit suit)
+std::ostream& operator<<(std::ostream& os, const Suit& suit)
 {
     switch(suit)
     {
-        case clubs:
+        case Suit::clubs:
             os << "C";
             break;
-        case diamonds:
+        case Suit::diamonds:
             os << "D";
             break;
-        case hearts:
+        case Suit::hearts:
             os << "H";
             break;
-        case spades:
+        case Suit::spades:
             os << "S";
             break;
+        case Suit::undefined:
         default:
             os << "?";
             break;
@@ -27,8 +26,9 @@ ostream& operator<<(ostream& os, &Suit suit)
     return os;
 }
 
-Suit& operator<<(&Suit suit)
+Suit& operator++(Suit& suit)
 {
+    // type casting to int to compare
     if (static_cast<int>(suit) < static_cast<int>(Suit::undefined))
     {
         suit = static_cast<Suit>(static_cast<int>(suit) + 1);
