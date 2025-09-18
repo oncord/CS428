@@ -2,7 +2,10 @@
 #define CARD_CPP
 
 #include "card.h"
+<<<<<<< HEAD
 #include <iostream>
+=======
+>>>>>>> 0050eea (studio2)
 
 // Card constructor 
 template <typename R, typename S>

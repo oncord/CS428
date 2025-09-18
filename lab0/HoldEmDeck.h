@@ -3,8 +3,8 @@
 
 #include <iostream>
 #include <vector>
-#include "Deck.h"
-#include "Card.h"
+#include "deck.h"
+#include "card.h"
 #include "suits.h"
 
 // enum class for Texas Hold'em card ranks

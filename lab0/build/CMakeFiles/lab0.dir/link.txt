@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/lab0.dir/lab0.cpp.o CMakeFiles/lab0.dir/HoldEmDeck.cpp.o CMakeFiles/lab0.dir/PinochleDeck.cpp.o CMakeFiles/lab0.dir/suits.cpp.o CMakeFiles/lab0.dir/card.cpp.o -o lab0 
