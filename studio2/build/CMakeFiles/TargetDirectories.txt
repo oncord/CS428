@@ -1,0 +1,3 @@
+/home/compute/meyer.r.l/CS428/studio2/build/CMakeFiles/studio2.dir
+/home/compute/meyer.r.l/CS428/studio2/build/CMakeFiles/edit_cache.dir
+/home/compute/meyer.r.l/CS428/studio2/build/CMakeFiles/rebuild_cache.dir

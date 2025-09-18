@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/studio2.dir/studio2.cpp.o CMakeFiles/studio2.dir/main.cpp.o -o studio2 
