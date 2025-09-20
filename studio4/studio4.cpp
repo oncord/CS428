@@ -4,7 +4,7 @@
  *  studio2.cpp
  */
 
-#include "studio2.h"
+#include "studio4.h"
 #include <iostream>
 
 std::ostream& operator<<(std::ostream& os, Weekday& w)
@@ -40,7 +40,7 @@ std::ostream& operator<<(std::ostream& os, Weekday& w)
     return os;
 }
 
-Weekday& operator++(Weekday& w)
+Weekday& operator++(Weekday& w, int)
 {
     switch (w)
     {
@@ -65,12 +65,30 @@ Weekday& operator++(Weekday& w)
         case Weekday::sat:
             w=  Weekday::sun;
             break;
-        case Weekday::sun:
-            w = Weekday::mon;
-            break;
     };
 
     return w;
+}
+
+std::ostream& operator<<(std::ostream& os, Pressure& p)
+{
+    switch (p)
+    {
+        case Pressure::lo:
+            os << "Low" << " ";
+            break;
+        case Pressure::med:
+            os << "Medium" << " ";
+            break;
+        case Pressure::hi:
+            os << "High" << " ";
+            break;
+        case Pressure::pop:
+            os << "Pop" << " ";
+            break;
+    };
+
+    return os;
 }
 
 Pressure& operator++(Pressure& p, int)
@@ -89,7 +107,7 @@ Pressure& operator++(Pressure& p, int)
         case Pressure::pop:
             break;
             
-    }
+    };
 
     return p;
 }

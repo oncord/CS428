@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/studio4.dir/studio4.cpp.o CMakeFiles/studio4.dir/main.cpp.o -o studio4 
