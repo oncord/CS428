@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/studio5.dir/studio5.cpp.o CMakeFiles/studio5.dir/main.cpp.o -o studio5 
