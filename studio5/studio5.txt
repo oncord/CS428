@@ -1,0 +1,224 @@
+==========================================================================================================================================
+1. Richard Meyer
+==========================================================================================================================================
+2.
+[SOURCE]
+/*
+ *  Richard Meyer
+ *
+ *  main.cpp
+ */
+#include "studio5.h"
+#include <iostream>
+#include <cstring>
+
+using namespace std;
+
+int main()
+{
+    const char * c1 = "test1";
+    const char * c2 = "test2"; 
+    //size_t (*p) (const char *) = strlen;
+
+    cout << "first string: \"" << c1 << "\"" << endl;
+    cout << "second string: \"" << c2 << "\"" << endl;
+
+    cout << "string1 len: " << strlen(c1) << "\nstring2 len: " << strlen(c2);
+    //cout << "string1 len: " << (*p)(c1)  << "\nstring2 len: " << (*p)(c2) << endl;
+
+    return 0;
+}
+[OUTPUT]
+[meyer.r.l@iht32-1501 build]$ ./studio5 
+first string: "test1"
+second string: "test2"
+string1 len: 5
+string2 len: 5
+==========================================================================================================================================
+3.
+[SOURCE]
+/*
+ *  Richard Meyer
+ *
+ *  main.cpp
+ */
+#include "studio5.h"
+#include <iostream>
+#include <cstring>
+
+using namespace std;
+
+int main()
+{
+    const char * c1 = "test1";
+    const char * c2 = "test2"; 
+    size_t (*p) (const char *) = strlen;
+
+    cout << "first string: \"" << c1 << "\"" << endl;
+    cout << "second string: \"" << c2 << "\"" << endl;
+
+    cout << "string1 len: " << (*p)(c1)  << "\nstring2 len: " << (*p)(c2) << endl;
+
+    return 0;
+}
+[OUTPUT]
+[meyer.r.l@iht32-1501 build]$ ./studio5 
+first string: "test1"
+second string: "test2"
+string1 len: 5
+string2 len: 5
+==========================================================================================================================================
+4.
+[SOURCE]
+/*
+ *  Richard Meyer
+ *
+ *  main.cpp
+ */
+#include "studio5.h"
+#include <iostream>
+#include <cstring>
+#include <cmath>
+
+using namespace std;
+
+int main()
+{
+    const char * c1 = "test1";
+    const char * c2 = "test2"; 
+    size_t (*p) (const char *) = strlen;
+    float f = 1.0;
+
+    cout << "original value: " << f << "\nafter sine and cosine: " << sin(cos(f)) << endl;
+
+    return 0;
+}
+[OUTPUT]
+[meyer.r.l@iht32-1501 build]$ ./studio5 
+original value: 1
+after sine and cosine: 0.514395
+==========================================================================================================================================
+5.
+[SOURCE]
+/*
+ *  Richard Meyer
+ *
+ *  main.cpp
+ */
+#include "studio5.h"
+#include <iostream>
+#include <cstring>
+#include <cmath>
+#include <functional>
+
+using namespace std;
+
+int main()
+{
+    const char * c1 = "test1";
+    const char * c2 = "test2"; 
+    size_t (*p) (const char *) = strlen;
+    float f = 1.0;
+
+    function<double(double)> s = [] (double x) {
+        return sin(x);
+    };
+
+    function <double(double)> c = [] (double x) {
+        return cos (x);
+    };
+
+    cout << "original value: " << f << "\nafter sine and cosine: " << s(c(f)) << endl;
+
+    return 0;
+}
+[OUTPUT]
+[meyer.r.l@iht32-1501 build]$ ./studio5 
+original value: 1
+after sine and cosine: 0.514395
+==========================================================================================================================================
+6.
+[SOURCE]
+/*
+ *  Richard Meyer
+ *
+ *  main.cpp
+ */
+#include "studio5.h"
+#include "Compose_T.h"
+#include <iostream>
+#include <cstring>
+#include <cmath>
+#include <functional>
+
+using namespace std;
+
+int main()
+{
+    const char * c1 = "test1";
+    const char * c2 = "test2"; 
+    size_t (*p) (const char *) = strlen;
+    float f = 1.0;
+
+    function<double(double)> s = [] (double x) {
+        return sin(x);
+    };
+
+    function <double(double)> c = [] (double x) {
+        return cos (x);
+    };
+
+    auto co = compose(s, c);
+
+    cout << "original value: " << f << "\nafter sine and cosine: " << co(f) << endl;
+
+    return 0;
+}
+[OUTPUT]
+[meyer.r.l@iht32-1501 build]$ ./studio5 
+original value: 1
+after sine and cosine: 0.514395
+==========================================================================================================================================
+7.
+[SOURCE]
+/*
+ *  Richard Meyer
+ *
+ *  main.cpp
+ */
+#include "studio5.h"
+#include "Compose_T.h"
+#include <iostream>
+#include <cstring>
+#include <cmath>
+#include <functional>
+
+using namespace std;
+
+int main()
+{
+    const char * c1 = "test1";
+    const char * c2 = "test2"; 
+    size_t (*p) (const char *) = strlen;
+    float f = 1.0;
+
+    function<double(double)> s = [] (double x) {
+        return sin(x);
+    };
+
+    function <double(double)> c = [] (double x) {
+        return cos (x);
+    };
+
+    auto co = compose(s, c);
+    auto b = bind(s, f);
+
+    cout << b() << endl;
+
+    return 0;
+}
+[OUTPUT]
+[meyer.r.l@iht32-1501 build]$ ./studio5 
+0.841471
+
+

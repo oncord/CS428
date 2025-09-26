@@ -1,0 +1,140 @@
+========================================================================================================================
+1. Richard Meyer
+========================================================================================================================
+2.
+
+int main()
+{
+    Pressure p1 = Pressure::lo;
+    Weekday w1 = Weekday::mon;
+
+    cout << p1++ << endl;
+
+    cout << w1++ << endl;
+
+    return SUCCESS;
+}
+
+[OUTPUT]
+[meyer.r.l@iht32-1501 build]$ ./studio4 
+Medium 
+Tuesday 
+
+the increment operator seems to have higher precedence as the output was the incremented value of the value sent to cout.
+========================================================================================================================
+3.
+
+int main()
+{
+    Pressure p1 = Pressure::lo;
+    Pressure p2 = Pressure::med;
+    Weekday w1 = Weekday::mon;
+    Weekday w2 = Weekday::tue;
+
+    if (p1 < p2)
+    {
+        cout << p1 << "is less than " << p2 << endl;
+    }
+
+    if (w1 < w2)
+    {
+        cout << w1 << "is less than " << w2 << endl;
+    }
+
+    return SUCCESS;
+}
+[OUTPUT]
+[meyer.r.l@iht32-1501 build]$ ./studio4 
+Low is less than Medium 
+Monday is less than Tuesday 
+
+the operator< correctly compares each enumerated type's underlying integral type, allowing each print statement to execute.
+========================================================================================================================
+4.
+
+int main()
+{
+    set<Weekday> workdays = {Weekday::mon, Weekday::tue, Weekday::wed, Weekday::thu, Weekday::fri};
+    set<Weekday> weekend = {Weekday::sat, Weekday::sun};
+
+    cout << "Workdays:\n";
+    for (Weekday day : workdays)
+    {
+        cout << day << "\n";
+    }
+
+    cout << "Weekend:\n";
+    for (Weekday day : weekend)
+    {
+        cout << day << "\n";
+    }
+
+    return SUCCESS;
+}
+[OUTPUT]
+[meyer.r.l@iht32-1502 build]$ ./studio4 
+Workdays:
+Monday 
+Tuesday 
+Wednesday 
+Thusday 
+Friday 
+Weekend:
+Sunday 
+Saturday 
+========================================================================================================================
+5.
+
+int main()
+{
+    set<Weekday> workdays = {Weekday::mon, Weekday::tue, Weekday::wed, Weekday::thu, Weekday::fri};
+    set<Weekday> weekend = {Weekday::fri, Weekday::sat, Weekday::sun};
+    set<Weekday> overlap;
+
+    set_intersection(
+        workdays.begin(), workdays.end(),
+        weekend.begin(), weekend.end(),
+        inserter(overlap, overlap.end())
+    );
+
+    for (Weekday day : overlap)
+    {
+        cout << day << "\n";
+    }
+
+    return SUCCESS;
+}
+[OUTPUT]
+[meyer.r.l@iht32-1502 build]$ ./studio4 
+Friday 
+========================================================================================================================
+6.
+
+int main()
+{
+    set<Weekday> workdays = {Weekday::mon, Weekday::tue, Weekday::wed, Weekday::thu, Weekday::fri};
+    set<Weekday> weekend = {Weekday::fri, Weekday::sat, Weekday::sun};
+    set<Weekday> combined;
+
+    set_union(
+        workdays.begin(), workdays.end(),
+        weekend.begin(), weekend.end(),
+        inserter(combined, combined.end())
+    );
+
+    for (Weekday day : combined)
+    {
+        cout << day << "\n";
+    }
+
+    return SUCCESS;
+}
+[OUTPUT]
+[meyer.r.l@iht32-1502 build]$ ./studio4 
+Sunday 
+Monday 
+Tuesday 
+Wednesday 
+Thusday 
+Friday 
+Saturday 
