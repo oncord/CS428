@@ -3,6 +3,9 @@
 
 CMakeFiles/studio5.dir/main.cpp.o: /home/compute/meyer.r.l/428/studio5/main.cpp \
   /usr/include/stdc-predef.h \
+  /home/compute/meyer.r.l/428/studio5/studio5.h \
+  /home/compute/meyer.r.l/428/studio5/Compose_T.h \
+  /home/compute/meyer.r.l/428/studio5/Compose_T.cpp \
   /usr/include/c++/8/iostream \
   /usr/include/c++/8/x86_64-redhat-linux/bits/c++config.h \
   /usr/include/bits/wordsize.h \
@@ -172,7 +175,60 @@ CMakeFiles/studio5.dir/main.cpp.o: /home/compute/meyer.r.l/428/studio5/main.cpp 
   /usr/include/c++/8/bits/istream.tcc \
   /usr/include/c++/8/cstring \
   /usr/include/string.h \
-  /usr/include/strings.h
+  /usr/include/strings.h \
+  /usr/include/c++/8/cmath \
+  /usr/include/math.h \
+  /usr/include/bits/math-vector.h \
+  /usr/include/bits/libm-simd-decl-stubs.h \
+  /usr/include/bits/flt-eval-method.h \
+  /usr/include/bits/fp-logb.h \
+  /usr/include/bits/fp-fast.h \
+  /usr/include/bits/mathcalls-helper-functions.h \
+  /usr/include/bits/mathcalls.h \
+  /usr/include/bits/mathcalls-narrow.h \
+  /usr/include/bits/iscanonical.h \
+  /usr/include/c++/8/bits/specfun.h \
+  /usr/include/c++/8/tr1/gamma.tcc \
+  /usr/include/c++/8/tr1/special_function_util.h \
+  /usr/include/c++/8/tr1/bessel_function.tcc \
+  /usr/include/c++/8/tr1/special_function_util.h \
+  /usr/include/c++/8/tr1/beta_function.tcc \
+  /usr/include/c++/8/tr1/ell_integral.tcc \
+  /usr/include/c++/8/tr1/exp_integral.tcc \
+  /usr/include/c++/8/tr1/hypergeometric.tcc \
+  /usr/include/c++/8/tr1/legendre_function.tcc \
+  /usr/include/c++/8/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/8/tr1/poly_hermite.tcc \
+  /usr/include/c++/8/tr1/poly_laguerre.tcc \
+  /usr/include/c++/8/tr1/riemann_zeta.tcc \
+  /usr/include/c++/8/functional \
+  /usr/include/c++/8/tuple \
+  /usr/include/c++/8/utility \
+  /usr/include/c++/8/bits/stl_relops.h \
+  /usr/include/c++/8/array \
+  /usr/include/c++/8/bits/uses_allocator.h \
+  /usr/include/c++/8/bits/invoke.h \
+  /usr/include/c++/8/bits/refwrap.h \
+  /usr/include/c++/8/bits/std_function.h \
+  /usr/include/c++/8/unordered_map \
+  /usr/include/c++/8/ext/aligned_buffer.h \
+  /usr/include/c++/8/bits/hashtable.h \
+  /usr/include/c++/8/bits/hashtable_policy.h \
+  /usr/include/c++/8/bits/node_handle.h \
+  /usr/include/c++/8/optional \
+  /usr/include/c++/8/bits/enable_special_members.h \
+  /usr/include/c++/8/bits/unordered_map.h \
+  /usr/include/c++/8/vector \
+  /usr/include/c++/8/bits/stl_construct.h \
+  /usr/include/c++/8/bits/stl_uninitialized.h \
+  /usr/include/c++/8/bits/stl_vector.h \
+  /usr/include/c++/8/bits/stl_bvector.h \
+  /usr/include/c++/8/bits/vector.tcc \
+  /usr/include/c++/8/bits/stl_algo.h \
+  /usr/include/c++/8/bits/algorithmfwd.h \
+  /usr/include/c++/8/bits/stl_heap.h \
+  /usr/include/c++/8/bits/stl_tempbuf.h \
+  /usr/include/c++/8/bits/uniform_int_dist.h
 
 CMakeFiles/studio5.dir/studio5.cpp.o: /home/compute/meyer.r.l/428/studio5/studio5.cpp \
   /usr/include/stdc-predef.h
@@ -180,9 +236,89 @@ CMakeFiles/studio5.dir/studio5.cpp.o: /home/compute/meyer.r.l/428/studio5/studio
 
 /home/compute/meyer.r.l/428/studio5/studio5.cpp:
 
+/usr/include/c++/8/bits/uniform_int_dist.h:
+
+/usr/include/c++/8/bits/stl_tempbuf.h:
+
+/usr/include/c++/8/bits/algorithmfwd.h:
+
+/usr/include/c++/8/bits/stl_heap.h:
+
+/usr/include/c++/8/bits/stl_algo.h:
+
+/usr/include/c++/8/bits/vector.tcc:
+
+/usr/include/c++/8/bits/stl_uninitialized.h:
+
+/usr/include/c++/8/vector:
+
+/usr/include/c++/8/bits/unordered_map.h:
+
+/usr/include/c++/8/bits/enable_special_members.h:
+
+/usr/include/c++/8/optional:
+
+/usr/include/c++/8/bits/hashtable_policy.h:
+
+/usr/include/c++/8/bits/hashtable.h:
+
+/usr/include/c++/8/ext/aligned_buffer.h:
+
+/usr/include/c++/8/bits/std_function.h:
+
+/usr/include/c++/8/bits/uses_allocator.h:
+
+/usr/include/c++/8/array:
+
+/usr/include/c++/8/bits/stl_relops.h:
+
+/usr/include/c++/8/tuple:
+
+/usr/include/c++/8/functional:
+
+/usr/include/c++/8/tr1/riemann_zeta.tcc:
+
+/usr/include/c++/8/tr1/hypergeometric.tcc:
+
+/usr/include/c++/8/tr1/ell_integral.tcc:
+
+/usr/include/c++/8/tr1/bessel_function.tcc:
+
+/usr/include/c++/8/tr1/special_function_util.h:
+
+/usr/include/c++/8/tr1/gamma.tcc:
+
+/usr/include/c++/8/bits/specfun.h:
+
+/usr/include/bits/iscanonical.h:
+
+/usr/include/bits/mathcalls-narrow.h:
+
+/usr/include/bits/mathcalls.h:
+
+/usr/include/bits/mathcalls-helper-functions.h:
+
+/usr/include/bits/fp-fast.h:
+
+/usr/include/bits/fp-logb.h:
+
+/usr/include/bits/flt-eval-method.h:
+
+/usr/include/bits/math-vector.h:
+
+/usr/include/math.h:
+
 /usr/include/c++/8/istream:
 
 /usr/include/c++/8/bits/ostream.tcc:
+
+/usr/include/c++/8/bits/basic_ios.tcc:
+
+/usr/include/c++/8/x86_64-redhat-linux/bits/ctype_inline.h:
+
+/usr/include/c++/8/bits/stl_construct.h:
+
+/usr/include/bits/libm-simd-decl-stubs.h:
 
 /usr/include/bits/endian.h:
 
@@ -220,7 +356,7 @@ CMakeFiles/studio5.dir/studio5.cpp.o: /home/compute/meyer.r.l/428/studio5/studio
 
 /usr/include/bits/types/locale_t.h:
 
-/usr/include/c++/8/bits/basic_ios.tcc:
+/usr/include/c++/8/bits/refwrap.h:
 
 /usr/include/locale.h:
 
@@ -248,19 +384,17 @@ CMakeFiles/studio5.dir/studio5.cpp.o: /home/compute/meyer.r.l/428/studio5/studio
 
 /usr/include/c++/8/bits/concept_check.h:
 
-/usr/include/bits/types/FILE.h:
-
 /usr/include/bits/stdlib-float.h:
 
 /usr/include/c++/8/ext/alloc_traits.h:
 
 /usr/include/c++/8/bits/cpp_type_traits.h:
 
+/usr/include/c++/8/cmath:
+
 /usr/include/bits/errno.h:
 
 /usr/include/c++/8/bits/basic_ios.h:
-
-/usr/include/c++/8/x86_64-redhat-linux/bits/ctype_inline.h:
 
 /usr/include/strings.h:
 
@@ -272,13 +406,19 @@ CMakeFiles/studio5.dir/studio5.cpp.o: /home/compute/meyer.r.l/428/studio5/studio
 
 /usr/include/c++/8/ext/string_conversions.h:
 
-/usr/include/c++/8/bits/stringfwd.h:
+/usr/include/bits/types/FILE.h:
 
-/usr/include/c++/8/bits/ios_base.h:
+/home/compute/meyer.r.l/428/studio5/Compose_T.h:
 
-/usr/include/c++/8/x86_64-redhat-linux/bits/cpu_defines.h:
+/usr/include/bits/types/timer_t.h:
 
-/usr/include/bits/stdio_lim.h:
+/usr/include/c++/8/bits/allocator.h:
+
+/usr/include/c++/8/bits/invoke.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/c++/8/unordered_map:
 
 /usr/include/bits/long-double.h:
 
@@ -291,6 +431,8 @@ CMakeFiles/studio5.dir/studio5.cpp.o: /home/compute/meyer.r.l/428/studio5/studio
 /usr/include/wctype.h:
 
 /usr/include/c++/8/x86_64-redhat-linux/bits/c++config.h:
+
+/usr/include/gnu/stubs-64.h:
 
 /usr/include/c++/8/bits/stl_algobase.h:
 
@@ -308,17 +450,7 @@ CMakeFiles/studio5.dir/studio5.cpp.o: /home/compute/meyer.r.l/428/studio5/studio
 
 /usr/include/c++/8/bits/basic_string.tcc:
 
-/usr/include/bits/locale.h:
-
-/usr/include/c++/8/system_error:
-
-/usr/include/c++/8/bits/ptr_traits.h:
-
-/usr/include/bits/stdint-intn.h:
-
-/usr/include/bits/cpu-set.h:
-
-/usr/include/bits/types/mbstate_t.h:
+/usr/include/c++/8/bits/stringfwd.h:
 
 /usr/include/c++/8/bits/localefwd.h:
 
@@ -330,35 +462,41 @@ CMakeFiles/studio5.dir/studio5.cpp.o: /home/compute/meyer.r.l/428/studio5/studio
 
 /home/compute/meyer.r.l/428/studio5/main.cpp:
 
-/usr/include/c++/8/bits/functexcept.h:
+/usr/include/bits/stdio_lim.h:
 
-/usr/include/bits/timex.h:
+/usr/include/c++/8/utility:
 
-/usr/include/bits/byteswap.h:
+/usr/include/bits/locale.h:
 
-/usr/include/bits/types/struct_timeval.h:
+/usr/include/c++/8/x86_64-redhat-linux/bits/os_defines.h:
+
+/usr/include/c++/8/iostream:
+
+/usr/include/c++/8/system_error:
+
+/usr/include/c++/8/bits/ptr_traits.h:
+
+/usr/include/bits/stdint-intn.h:
+
+/usr/include/bits/cpu-set.h:
+
+/usr/include/c++/8/bits/node_handle.h:
+
+/usr/include/bits/types/mbstate_t.h:
+
+/home/compute/meyer.r.l/428/studio5/Compose_T.cpp:
 
 /usr/include/ctype.h:
 
 /usr/include/c++/8/cwchar:
 
-/usr/include/bits/uintn-identity.h:
-
-/usr/include/c++/8/bits/ostream_insert.h:
-
-/usr/include/c++/8/stdexcept:
-
 /usr/include/bits/libc-header-start.h:
+
+/home/compute/meyer.r.l/428/studio5/studio5.h:
 
 /usr/include/c++/8/ios:
 
 /usr/include/bits/floatn.h:
-
-/usr/include/gnu/stubs-64.h:
-
-/usr/include/c++/8/iostream:
-
-/usr/include/c++/8/x86_64-redhat-linux/bits/os_defines.h:
 
 /usr/include/bits/types/wint_t.h:
 
@@ -367,6 +505,14 @@ CMakeFiles/studio5.dir/studio5.cpp.o: /home/compute/meyer.r.l/428/studio5/studio
 /usr/include/bits/waitstatus.h:
 
 /usr/include/bits/floatn-common.h:
+
+/usr/include/c++/8/bits/functexcept.h:
+
+/usr/include/bits/timex.h:
+
+/usr/include/bits/byteswap.h:
+
+/usr/include/bits/types/struct_timeval.h:
 
 /usr/include/wchar.h:
 
@@ -385,6 +531,18 @@ CMakeFiles/studio5.dir/studio5.cpp.o: /home/compute/meyer.r.l/428/studio5/studio
 /usr/include/c++/8/iosfwd:
 
 /usr/include/bits/types/__FILE.h:
+
+/usr/include/bits/uintn-identity.h:
+
+/usr/include/c++/8/bits/ostream_insert.h:
+
+/usr/include/c++/8/stdexcept:
+
+/usr/include/c++/8/x86_64-redhat-linux/bits/cpu_defines.h:
+
+/usr/include/c++/8/bits/ios_base.h:
+
+/usr/include/c++/8/bits/stl_bvector.h:
 
 /usr/include/bits/wctype-wchar.h:
 
@@ -408,6 +566,8 @@ CMakeFiles/studio5.dir/studio5.cpp.o: /home/compute/meyer.r.l/428/studio5/studio
 
 /usr/include/bits/types/time_t.h:
 
+/usr/include/c++/8/tr1/modified_bessel_func.tcc:
+
 /usr/include/bits/types/struct_timespec.h:
 
 /usr/include/time.h:
@@ -426,11 +586,7 @@ CMakeFiles/studio5.dir/studio5.cpp.o: /home/compute/meyer.r.l/428/studio5/studio
 
 /usr/include/c++/8/bits/std_abs.h:
 
-/usr/include/bits/types/timer_t.h:
-
-/usr/include/c++/8/bits/allocator.h:
-
-/usr/include/sys/select.h:
+/usr/include/c++/8/tr1/legendre_function.tcc:
 
 /usr/include/bits/thread-shared-types.h:
 
@@ -447,6 +603,10 @@ CMakeFiles/studio5.dir/studio5.cpp.o: /home/compute/meyer.r.l/428/studio5/studio
 /usr/include/c++/8/string:
 
 /usr/include/c++/8/x86_64-redhat-linux/bits/c++allocator.h:
+
+/usr/include/c++/8/tr1/poly_hermite.tcc:
+
+/usr/include/c++/8/tr1/beta_function.tcc:
 
 /usr/lib/gcc/x86_64-redhat-linux/8/include/stddef.h:
 
@@ -490,9 +650,15 @@ CMakeFiles/studio5.dir/studio5.cpp.o: /home/compute/meyer.r.l/428/studio5/studio
 
 /usr/include/alloca.h:
 
+/usr/include/c++/8/bits/stl_vector.h:
+
+/usr/include/c++/8/tr1/exp_integral.tcc:
+
 /usr/include/c++/8/bits/memoryfwd.h:
 
 /usr/include/c++/8/cstdio:
+
+/usr/include/c++/8/tr1/poly_laguerre.tcc:
 
 /usr/include/c++/8/bits/locale_classes.tcc:
 
