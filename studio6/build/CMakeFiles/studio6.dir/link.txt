@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/studio6.dir/studio6.cpp.o CMakeFiles/studio6.dir/main.cpp.o -o studio6 
