@@ -110,13 +110,30 @@ CMakeFiles/lab1.dir/lab1.cpp.o: /home/compute/meyer.r.l/428/lab1/lab1.cpp \
  /usr/include/c++/8/bits/locale_facets.tcc \
  /usr/include/c++/8/bits/basic_ios.tcc \
  /usr/include/c++/8/bits/ostream.tcc /usr/include/c++/8/istream \
- /usr/include/c++/8/bits/istream.tcc \
- /home/compute/meyer.r.l/428/lab1/PinochleDeck.h \
- /usr/include/c++/8/vector /usr/include/c++/8/bits/stl_construct.h \
+ /usr/include/c++/8/bits/istream.tcc /usr/include/c++/8/memory \
+ /usr/include/c++/8/bits/stl_construct.h \
  /usr/include/c++/8/bits/stl_uninitialized.h /usr/include/c++/8/utility \
  /usr/include/c++/8/bits/stl_relops.h \
+ /usr/include/c++/8/bits/stl_tempbuf.h \
+ /usr/include/c++/8/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/8/ext/concurrence.h \
+ /usr/include/c++/8/bits/uses_allocator.h \
+ /usr/include/c++/8/bits/unique_ptr.h /usr/include/c++/8/tuple \
+ /usr/include/c++/8/array /usr/include/c++/8/bits/invoke.h \
+ /usr/include/c++/8/bits/shared_ptr.h \
+ /usr/include/c++/8/bits/shared_ptr_base.h \
+ /usr/include/c++/8/bits/allocated_ptr.h \
+ /usr/include/c++/8/bits/refwrap.h \
+ /usr/include/c++/8/ext/aligned_buffer.h \
+ /usr/include/c++/8/bits/shared_ptr_atomic.h \
+ /usr/include/c++/8/bits/atomic_base.h \
+ /usr/include/c++/8/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/8/backward/auto_ptr.h \
+ /home/compute/meyer.r.l/428/lab1/Game.h /usr/include/c++/8/vector \
  /usr/include/c++/8/bits/stl_vector.h \
  /usr/include/c++/8/bits/stl_bvector.h /usr/include/c++/8/bits/vector.tcc \
+ /home/compute/meyer.r.l/428/lab1/PinochleGame.h \
+ /home/compute/meyer.r.l/428/lab1/PinochleDeck.h \
  /home/compute/meyer.r.l/428/lab1/deck.h \
  /home/compute/meyer.r.l/428/lab1/cardset.h \
  /home/compute/meyer.r.l/428/lab1/card.h \
@@ -147,7 +164,8 @@ CMakeFiles/lab1.dir/lab1.cpp.o: /home/compute/meyer.r.l/428/lab1/lab1.cpp \
  /usr/include/c++/8/bits/stl_numeric.h /usr/include/c++/8/algorithm \
  /usr/include/c++/8/bits/stl_algo.h \
  /usr/include/c++/8/bits/algorithmfwd.h \
- /usr/include/c++/8/bits/stl_heap.h /usr/include/c++/8/bits/stl_tempbuf.h \
- /home/compute/meyer.r.l/428/lab1/deck.cpp \
+ /usr/include/c++/8/bits/stl_heap.h \
  /home/compute/meyer.r.l/428/lab1/suits.h \
- /home/compute/meyer.r.l/428/lab1/HoldEmDeck.h
+ /home/compute/meyer.r.l/428/lab1/HoldEmGame.h \
+ /home/compute/meyer.r.l/428/lab1/HoldEmDeck.h \
+ /home/compute/meyer.r.l/428/lab1/util.h

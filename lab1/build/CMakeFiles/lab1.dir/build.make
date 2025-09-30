@@ -111,10 +111,52 @@ CMakeFiles/lab1.dir/PinochleDeck.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab1.dir/PinochleDeck.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/compute/meyer.r.l/428/lab1/PinochleDeck.cpp -o CMakeFiles/lab1.dir/PinochleDeck.cpp.s
 
+CMakeFiles/lab1.dir/Game.cpp.o: CMakeFiles/lab1.dir/flags.make
+CMakeFiles/lab1.dir/Game.cpp.o: /home/compute/meyer.r.l/428/lab1/Game.cpp
+CMakeFiles/lab1.dir/Game.cpp.o: CMakeFiles/lab1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/compute/meyer.r.l/428/lab1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/lab1.dir/Game.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab1.dir/Game.cpp.o -MF CMakeFiles/lab1.dir/Game.cpp.o.d -o CMakeFiles/lab1.dir/Game.cpp.o -c /home/compute/meyer.r.l/428/lab1/Game.cpp
+
+CMakeFiles/lab1.dir/Game.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab1.dir/Game.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/compute/meyer.r.l/428/lab1/Game.cpp > CMakeFiles/lab1.dir/Game.cpp.i
+
+CMakeFiles/lab1.dir/Game.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab1.dir/Game.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/compute/meyer.r.l/428/lab1/Game.cpp -o CMakeFiles/lab1.dir/Game.cpp.s
+
+CMakeFiles/lab1.dir/PinochleGame.cpp.o: CMakeFiles/lab1.dir/flags.make
+CMakeFiles/lab1.dir/PinochleGame.cpp.o: /home/compute/meyer.r.l/428/lab1/PinochleGame.cpp
+CMakeFiles/lab1.dir/PinochleGame.cpp.o: CMakeFiles/lab1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/compute/meyer.r.l/428/lab1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/lab1.dir/PinochleGame.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab1.dir/PinochleGame.cpp.o -MF CMakeFiles/lab1.dir/PinochleGame.cpp.o.d -o CMakeFiles/lab1.dir/PinochleGame.cpp.o -c /home/compute/meyer.r.l/428/lab1/PinochleGame.cpp
+
+CMakeFiles/lab1.dir/PinochleGame.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab1.dir/PinochleGame.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/compute/meyer.r.l/428/lab1/PinochleGame.cpp > CMakeFiles/lab1.dir/PinochleGame.cpp.i
+
+CMakeFiles/lab1.dir/PinochleGame.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab1.dir/PinochleGame.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/compute/meyer.r.l/428/lab1/PinochleGame.cpp -o CMakeFiles/lab1.dir/PinochleGame.cpp.s
+
+CMakeFiles/lab1.dir/HoldEmGame.cpp.o: CMakeFiles/lab1.dir/flags.make
+CMakeFiles/lab1.dir/HoldEmGame.cpp.o: /home/compute/meyer.r.l/428/lab1/HoldEmGame.cpp
+CMakeFiles/lab1.dir/HoldEmGame.cpp.o: CMakeFiles/lab1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/compute/meyer.r.l/428/lab1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/lab1.dir/HoldEmGame.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab1.dir/HoldEmGame.cpp.o -MF CMakeFiles/lab1.dir/HoldEmGame.cpp.o.d -o CMakeFiles/lab1.dir/HoldEmGame.cpp.o -c /home/compute/meyer.r.l/428/lab1/HoldEmGame.cpp
+
+CMakeFiles/lab1.dir/HoldEmGame.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab1.dir/HoldEmGame.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/compute/meyer.r.l/428/lab1/HoldEmGame.cpp > CMakeFiles/lab1.dir/HoldEmGame.cpp.i
+
+CMakeFiles/lab1.dir/HoldEmGame.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab1.dir/HoldEmGame.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/compute/meyer.r.l/428/lab1/HoldEmGame.cpp -o CMakeFiles/lab1.dir/HoldEmGame.cpp.s
+
 CMakeFiles/lab1.dir/suits.cpp.o: CMakeFiles/lab1.dir/flags.make
 CMakeFiles/lab1.dir/suits.cpp.o: /home/compute/meyer.r.l/428/lab1/suits.cpp
 CMakeFiles/lab1.dir/suits.cpp.o: CMakeFiles/lab1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/compute/meyer.r.l/428/lab1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/lab1.dir/suits.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/compute/meyer.r.l/428/lab1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/lab1.dir/suits.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab1.dir/suits.cpp.o -MF CMakeFiles/lab1.dir/suits.cpp.o.d -o CMakeFiles/lab1.dir/suits.cpp.o -c /home/compute/meyer.r.l/428/lab1/suits.cpp
 
 CMakeFiles/lab1.dir/suits.cpp.i: cmake_force
@@ -130,6 +172,9 @@ lab1_OBJECTS = \
 "CMakeFiles/lab1.dir/lab1.cpp.o" \
 "CMakeFiles/lab1.dir/HoldEmDeck.cpp.o" \
 "CMakeFiles/lab1.dir/PinochleDeck.cpp.o" \
+"CMakeFiles/lab1.dir/Game.cpp.o" \
+"CMakeFiles/lab1.dir/PinochleGame.cpp.o" \
+"CMakeFiles/lab1.dir/HoldEmGame.cpp.o" \
 "CMakeFiles/lab1.dir/suits.cpp.o"
 
 # External object files for target lab1
@@ -138,10 +183,13 @@ lab1_EXTERNAL_OBJECTS =
 lab1: CMakeFiles/lab1.dir/lab1.cpp.o
 lab1: CMakeFiles/lab1.dir/HoldEmDeck.cpp.o
 lab1: CMakeFiles/lab1.dir/PinochleDeck.cpp.o
+lab1: CMakeFiles/lab1.dir/Game.cpp.o
+lab1: CMakeFiles/lab1.dir/PinochleGame.cpp.o
+lab1: CMakeFiles/lab1.dir/HoldEmGame.cpp.o
 lab1: CMakeFiles/lab1.dir/suits.cpp.o
 lab1: CMakeFiles/lab1.dir/build.make
 lab1: CMakeFiles/lab1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/compute/meyer.r.l/428/lab1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable lab1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/compute/meyer.r.l/428/lab1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable lab1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lab1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

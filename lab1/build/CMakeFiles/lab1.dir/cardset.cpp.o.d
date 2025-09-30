@@ -1,7 +1,7 @@
-CMakeFiles/lab1.dir/HoldEmDeck.cpp.o: \
- /home/compute/meyer.r.l/428/lab1/HoldEmDeck.cpp \
- /usr/include/stdc-predef.h /home/compute/meyer.r.l/428/lab1/HoldEmDeck.h \
- /usr/include/c++/8/iostream \
+CMakeFiles/lab1.dir/cardset.cpp.o: \
+ /home/compute/meyer.r.l/428/lab1/cardset.cpp /usr/include/stdc-predef.h \
+ /home/compute/meyer.r.l/428/lab1/cardset.h \
+ /home/compute/meyer.r.l/428/lab1/card.h /usr/include/c++/8/iostream \
  /usr/include/c++/8/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/bits/wordsize.h \
  /usr/include/c++/8/x86_64-redhat-linux/bits/os_defines.h \
@@ -118,35 +118,4 @@ CMakeFiles/lab1.dir/HoldEmDeck.cpp.o: \
  /usr/include/c++/8/bits/stl_relops.h \
  /usr/include/c++/8/bits/stl_vector.h \
  /usr/include/c++/8/bits/stl_bvector.h /usr/include/c++/8/bits/vector.tcc \
- /home/compute/meyer.r.l/428/lab1/deck.h \
- /home/compute/meyer.r.l/428/lab1/cardset.h \
- /home/compute/meyer.r.l/428/lab1/card.h \
- /home/compute/meyer.r.l/428/lab1/cardset.cpp /usr/include/c++/8/random \
- /usr/include/c++/8/cmath /usr/include/math.h \
- /usr/include/bits/math-vector.h /usr/include/bits/libm-simd-decl-stubs.h \
- /usr/include/bits/flt-eval-method.h /usr/include/bits/fp-logb.h \
- /usr/include/bits/fp-fast.h \
- /usr/include/bits/mathcalls-helper-functions.h \
- /usr/include/bits/mathcalls.h /usr/include/bits/mathcalls-narrow.h \
- /usr/include/bits/iscanonical.h /usr/include/c++/8/bits/specfun.h \
- /usr/include/c++/8/tr1/gamma.tcc \
- /usr/include/c++/8/tr1/special_function_util.h \
- /usr/include/c++/8/tr1/bessel_function.tcc \
- /usr/include/c++/8/tr1/special_function_util.h \
- /usr/include/c++/8/tr1/beta_function.tcc \
- /usr/include/c++/8/tr1/ell_integral.tcc \
- /usr/include/c++/8/tr1/exp_integral.tcc \
- /usr/include/c++/8/tr1/hypergeometric.tcc \
- /usr/include/c++/8/tr1/legendre_function.tcc \
- /usr/include/c++/8/tr1/modified_bessel_func.tcc \
- /usr/include/c++/8/tr1/poly_hermite.tcc \
- /usr/include/c++/8/tr1/poly_laguerre.tcc \
- /usr/include/c++/8/tr1/riemann_zeta.tcc /usr/include/c++/8/bits/random.h \
- /usr/include/c++/8/bits/uniform_int_dist.h \
- /usr/include/c++/8/x86_64-redhat-linux/bits/opt_random.h \
- /usr/include/c++/8/bits/random.tcc /usr/include/c++/8/numeric \
- /usr/include/c++/8/bits/stl_numeric.h /usr/include/c++/8/algorithm \
- /usr/include/c++/8/bits/stl_algo.h \
- /usr/include/c++/8/bits/algorithmfwd.h \
- /usr/include/c++/8/bits/stl_heap.h /usr/include/c++/8/bits/stl_tempbuf.h \
- /home/compute/meyer.r.l/428/lab1/suits.h
+ /home/compute/meyer.r.l/428/lab1/cardset.cpp

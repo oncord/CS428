@@ -7,9 +7,24 @@ bool CardSet<R,S>::is_empty() const {
 }
 
 template <typename R, typename S>
-void CardSet<R, S>::print(std::ostream& os, size_t size) 
+CardSet<R,S>& CardSet<R,S>::operator>>(CardSet<R,S>& other)
 {
-    typename std::vector< Card<R, S> >::iterator it = cards.begin();
+    if (cards.empty())
+    {
+        throw std::runtime_error("CardSet is empty, cant shift");
+    }
+
+    other.cards.push_back(cards.back());
+
+    cards.pop_back();
+
+    return *this;
+}
+
+template <typename R, typename S>
+void CardSet<R, S>::print(std::ostream& os, size_t size) const 
+{
+    typename std::vector< Card<R, S> >::const_iterator it = cards.begin();
     size_t count = 0; // count # of cards per line
 
     for (size_t count = 0; it != cards.end(); it++)

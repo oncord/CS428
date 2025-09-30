@@ -6,6 +6,9 @@ add_executable(${PROJ}
     lab1.cpp
     HoldEmDeck.cpp
     PinochleDeck.cpp
+    Game.cpp
+    PinochleGame.cpp
+    HoldEmGame.cpp
     suits.cpp
 )
 set_target_properties(${PROJ} PROPERTIES

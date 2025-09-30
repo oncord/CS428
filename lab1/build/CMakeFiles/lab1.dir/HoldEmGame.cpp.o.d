@@ -1,7 +1,8 @@
-CMakeFiles/lab1.dir/HoldEmDeck.cpp.o: \
- /home/compute/meyer.r.l/428/lab1/HoldEmDeck.cpp \
- /usr/include/stdc-predef.h /home/compute/meyer.r.l/428/lab1/HoldEmDeck.h \
- /usr/include/c++/8/iostream \
+CMakeFiles/lab1.dir/HoldEmGame.cpp.o: \
+ /home/compute/meyer.r.l/428/lab1/HoldEmGame.cpp \
+ /usr/include/stdc-predef.h /home/compute/meyer.r.l/428/lab1/HoldEmGame.h \
+ /home/compute/meyer.r.l/428/lab1/cardset.h \
+ /home/compute/meyer.r.l/428/lab1/card.h /usr/include/c++/8/iostream \
  /usr/include/c++/8/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/bits/wordsize.h \
  /usr/include/c++/8/x86_64-redhat-linux/bits/os_defines.h \
@@ -118,10 +119,9 @@ CMakeFiles/lab1.dir/HoldEmDeck.cpp.o: \
  /usr/include/c++/8/bits/stl_relops.h \
  /usr/include/c++/8/bits/stl_vector.h \
  /usr/include/c++/8/bits/stl_bvector.h /usr/include/c++/8/bits/vector.tcc \
- /home/compute/meyer.r.l/428/lab1/deck.h \
- /home/compute/meyer.r.l/428/lab1/cardset.h \
- /home/compute/meyer.r.l/428/lab1/card.h \
- /home/compute/meyer.r.l/428/lab1/cardset.cpp /usr/include/c++/8/random \
+ /home/compute/meyer.r.l/428/lab1/cardset.cpp \
+ /home/compute/meyer.r.l/428/lab1/HoldEmDeck.h \
+ /home/compute/meyer.r.l/428/lab1/deck.h /usr/include/c++/8/random \
  /usr/include/c++/8/cmath /usr/include/math.h \
  /usr/include/bits/math-vector.h /usr/include/bits/libm-simd-decl-stubs.h \
  /usr/include/bits/flt-eval-method.h /usr/include/bits/fp-logb.h \
@@ -149,4 +149,6 @@ CMakeFiles/lab1.dir/HoldEmDeck.cpp.o: \
  /usr/include/c++/8/bits/stl_algo.h \
  /usr/include/c++/8/bits/algorithmfwd.h \
  /usr/include/c++/8/bits/stl_heap.h /usr/include/c++/8/bits/stl_tempbuf.h \
- /home/compute/meyer.r.l/428/lab1/suits.h
+ /home/compute/meyer.r.l/428/lab1/suits.h \
+ /home/compute/meyer.r.l/428/lab1/Game.h \
+ /home/compute/meyer.r.l/428/lab1/util.h

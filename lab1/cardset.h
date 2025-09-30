@@ -3,15 +3,16 @@
 
 #include "card.h"
 #include <iostream>
+#include <stdexcept>
 #include <vector>
 
 template <typename R, typename S>
 class CardSet {
 protected:
-    std::vector<Card<R, S>> cards;
+    std::vector< Card<R, S> > cards;
 
 public:
-    void print(std::ostream& os, size_t size);
+    void print(std::ostream& os, size_t size) const;
 
     bool is_empty() const;
     CardSet<R,S>& operator>>(CardSet<R,S>& other);

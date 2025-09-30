@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/lab1.dir/lab1.cpp.o CMakeFiles/lab1.dir/HoldEmDeck.cpp.o CMakeFiles/lab1.dir/PinochleDeck.cpp.o CMakeFiles/lab1.dir/suits.cpp.o -o lab1 
+/usr/bin/c++ -g CMakeFiles/lab1.dir/lab1.cpp.o CMakeFiles/lab1.dir/HoldEmDeck.cpp.o CMakeFiles/lab1.dir/PinochleDeck.cpp.o CMakeFiles/lab1.dir/Game.cpp.o CMakeFiles/lab1.dir/PinochleGame.cpp.o CMakeFiles/lab1.dir/HoldEmGame.cpp.o CMakeFiles/lab1.dir/suits.cpp.o -o lab1 

@@ -129,6 +129,30 @@ lab1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/build
 .PHONY : lab1/fast
 
+Game.o: Game.cpp.o
+.PHONY : Game.o
+
+# target to build an object file
+Game.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/Game.cpp.o
+.PHONY : Game.cpp.o
+
+Game.i: Game.cpp.i
+.PHONY : Game.i
+
+# target to preprocess a source file
+Game.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/Game.cpp.i
+.PHONY : Game.cpp.i
+
+Game.s: Game.cpp.s
+.PHONY : Game.s
+
+# target to generate assembly for a file
+Game.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/Game.cpp.s
+.PHONY : Game.cpp.s
+
 HoldEmDeck.o: HoldEmDeck.cpp.o
 .PHONY : HoldEmDeck.o
 
@@ -153,6 +177,30 @@ HoldEmDeck.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/HoldEmDeck.cpp.s
 .PHONY : HoldEmDeck.cpp.s
 
+HoldEmGame.o: HoldEmGame.cpp.o
+.PHONY : HoldEmGame.o
+
+# target to build an object file
+HoldEmGame.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/HoldEmGame.cpp.o
+.PHONY : HoldEmGame.cpp.o
+
+HoldEmGame.i: HoldEmGame.cpp.i
+.PHONY : HoldEmGame.i
+
+# target to preprocess a source file
+HoldEmGame.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/HoldEmGame.cpp.i
+.PHONY : HoldEmGame.cpp.i
+
+HoldEmGame.s: HoldEmGame.cpp.s
+.PHONY : HoldEmGame.s
+
+# target to generate assembly for a file
+HoldEmGame.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/HoldEmGame.cpp.s
+.PHONY : HoldEmGame.cpp.s
+
 PinochleDeck.o: PinochleDeck.cpp.o
 .PHONY : PinochleDeck.o
 
@@ -176,6 +224,30 @@ PinochleDeck.s: PinochleDeck.cpp.s
 PinochleDeck.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/PinochleDeck.cpp.s
 .PHONY : PinochleDeck.cpp.s
+
+PinochleGame.o: PinochleGame.cpp.o
+.PHONY : PinochleGame.o
+
+# target to build an object file
+PinochleGame.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/PinochleGame.cpp.o
+.PHONY : PinochleGame.cpp.o
+
+PinochleGame.i: PinochleGame.cpp.i
+.PHONY : PinochleGame.i
+
+# target to preprocess a source file
+PinochleGame.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/PinochleGame.cpp.i
+.PHONY : PinochleGame.cpp.i
+
+PinochleGame.s: PinochleGame.cpp.s
+.PHONY : PinochleGame.s
+
+# target to generate assembly for a file
+PinochleGame.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/PinochleGame.cpp.s
+.PHONY : PinochleGame.cpp.s
 
 lab1.o: lab1.cpp.o
 .PHONY : lab1.o
@@ -234,12 +306,21 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... lab1"
+	@echo "... Game.o"
+	@echo "... Game.i"
+	@echo "... Game.s"
 	@echo "... HoldEmDeck.o"
 	@echo "... HoldEmDeck.i"
 	@echo "... HoldEmDeck.s"
+	@echo "... HoldEmGame.o"
+	@echo "... HoldEmGame.i"
+	@echo "... HoldEmGame.s"
 	@echo "... PinochleDeck.o"
 	@echo "... PinochleDeck.i"
 	@echo "... PinochleDeck.s"
+	@echo "... PinochleGame.o"
+	@echo "... PinochleGame.i"
+	@echo "... PinochleGame.s"
 	@echo "... lab1.o"
 	@echo "... lab1.i"
 	@echo "... lab1.s"
