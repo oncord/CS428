@@ -165,6 +165,7 @@ CMakeFiles/lab1.dir/lab1.cpp.o: /home/compute/meyer.r.l/428/lab1/lab1.cpp \
  /usr/include/c++/8/bits/stl_algo.h \
  /usr/include/c++/8/bits/algorithmfwd.h \
  /usr/include/c++/8/bits/stl_heap.h \
+ /home/compute/meyer.r.l/428/lab1/deck.cpp \
  /home/compute/meyer.r.l/428/lab1/suits.h \
  /home/compute/meyer.r.l/428/lab1/HoldEmGame.h \
  /home/compute/meyer.r.l/428/lab1/HoldEmDeck.h \

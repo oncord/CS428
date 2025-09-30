@@ -149,6 +149,7 @@ CMakeFiles/lab1.dir/HoldEmGame.cpp.o: \
  /usr/include/c++/8/bits/stl_algo.h \
  /usr/include/c++/8/bits/algorithmfwd.h \
  /usr/include/c++/8/bits/stl_heap.h /usr/include/c++/8/bits/stl_tempbuf.h \
+ /home/compute/meyer.r.l/428/lab1/deck.cpp \
  /home/compute/meyer.r.l/428/lab1/suits.h \
  /home/compute/meyer.r.l/428/lab1/Game.h \
  /home/compute/meyer.r.l/428/lab1/util.h

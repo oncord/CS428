@@ -149,4 +149,5 @@ CMakeFiles/lab1.dir/HoldEmDeck.cpp.o: \
  /usr/include/c++/8/bits/stl_algo.h \
  /usr/include/c++/8/bits/algorithmfwd.h \
  /usr/include/c++/8/bits/stl_heap.h /usr/include/c++/8/bits/stl_tempbuf.h \
+ /home/compute/meyer.r.l/428/lab1/deck.cpp \
  /home/compute/meyer.r.l/428/lab1/suits.h
