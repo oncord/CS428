@@ -21,5 +21,7 @@ int main()
 
     // s2.setA(1); compiler error
 
+    cout << "const object: " << s2.getA() << " " << s2.getB() << endl; 
+
     return 0;
 }

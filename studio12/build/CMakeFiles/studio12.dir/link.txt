@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/studio12.dir/studio12.cpp.o -o studio12 

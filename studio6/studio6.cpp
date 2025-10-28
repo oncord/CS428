@@ -6,6 +6,9 @@
 #include "studio6.h"
 #include <iostream>
 
+
+S::S() : a(0), b(0) {}
+
 // copy constructor
 S::S(const S& copy) : a(copy.a), b(copy.b) {}
 

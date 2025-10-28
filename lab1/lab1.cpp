@@ -31,11 +31,11 @@ shared_ptr<Game> create(int argc, const char * argv[])
 
 int main(int argc, const char * argv[])
 {
-    if (argc < 3)
+    if (argc < 2)
     {
-        cerr << "Usage: " << endl;
-        cerr << " " << argv[0] << " Pinochle <player1> .. <player4>" << endl;
-        cerr << " " << argv[0] << " HoldEm <player1> ... <player9>" << endl;
+        cerr << "Usage:\n"
+             << " " << argv[0] << " Pinochle <player1> .. <player4>\n";
+             << " " << argv[0] << " HoldEm <player1> ... <player9>\n";
         return ExitCode::UsageError;
     }
 
@@ -45,36 +45,35 @@ int main(int argc, const char * argv[])
     {
         if (argc != 6)
         {
-            cerr << "Pinochle requires four players." << endl;
-            cerr << "Usage: " << argv[0] << " Pinochle <player1> .. <player4>" << endl;
+            cerr << "Pinochle requires four players.\n";
+                 << "Usage: " << argv[0] << " Pinochle <player1> .. <player4>\n";
             return ExitCode::InvalidPlayers;
         }
     }
     else if (name == "HoldEm")
     {
-        if (argc < 4 || argc > 10)
+        if (argc < 4 || argc > 11)
         {
-            cerr << "HoldEm requires between 2 and 9 players." << endl;
-            cerr << "Usage: " << argv[0] << " HoldEm <player1> ... <player9>" << endl;
+            cerr << "HoldEm requires between 2 and 9 players.\n";
+                 << "Usage: " << argv[0] << " HoldEm <player1> ... <player9>\n";
             return ExitCode::InvalidPlayers;
         }
     }
     else
     {
-        cerr << "Unknown game: " << name << endl;
-        cerr << "Valid options are: Pinochle or HoldEm" << endl;
+        cerr << "Unknown game: " << name << "\n";
+             << "Valid options are: Pinochle or HoldEm\n";
         return ExitCode::UnknownGame;
     }
 
     auto game = create(argc, argv);
-
     if (game)
     {
         return game->play(); 
     }
     else
     {
-        cerr << "error: could not create game object" << endl;
+        cerr << "error: could not create game object\n";
         return ExitCode::GameCreationError;
     }
 }

@@ -29,7 +29,7 @@ void HoldEmGame::deal()
     switch (state)
     {
         case HoldEmState::preflop:
-            for (int round = 0; round < HOLDEM_HOLE_CARDS; round++)
+            for (size_t round = 0; round < HOLDEM_HOLE_CARDS; round++)
             {
                 for (auto& hand : hands)
                 {
@@ -44,7 +44,7 @@ void HoldEmGame::deal()
             break;
 
         case HoldEmState::flop:
-            for (int i = 0; i < HOLDEM_FLOP_CARDS; i++)
+            for (size_t i = 0; i < HOLDEM_FLOP_CARDS; i++)
             {
                 if (deck.is_empty())
                 {

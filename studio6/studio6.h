@@ -3,7 +3,8 @@
 
 class S {
 public:
-    S() = default; // default constructor
+    //S() = default; // default constructor
+    S();
     S(const S& copy); // copy constructor
 
     int getA() const;

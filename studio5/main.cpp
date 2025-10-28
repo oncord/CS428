@@ -28,7 +28,7 @@ int main()
     };
 
     auto co = compose(s, c);
-    auto b = bind(s, f);
+    auto b = bind(co, f);
 
     //cout << "first string: \"" << c1 << "\"" << endl;
     //cout << "second string: \"" << c2 << "\"" << endl;

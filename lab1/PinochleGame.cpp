@@ -24,7 +24,7 @@ void PinochleGame::deal()
     try {
     while (!deck.is_empty())
     {
-        for (int i = 0; i < PINOCHLE_PACKET_SIZE && !deck.is_empty(); i++)
+        for (size_t i = 0; i < PINOCHLE_PACKET_SIZE && !deck.is_empty(); i++)
         {
             deck >> hands[playerIndex];
         }

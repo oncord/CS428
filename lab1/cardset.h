@@ -22,4 +22,4 @@ public:
 #include "cardset.cpp"
 #endif
 
-#endif CARDSET_H
+#endif // CARDSET_H

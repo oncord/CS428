@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/studio7.dir/studio7.cpp.o CMakeFiles/studio7.dir/main.cpp.o -o studio7 

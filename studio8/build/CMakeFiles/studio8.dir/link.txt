@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/studio8.dir/baseclass.cpp.o CMakeFiles/studio8.dir/derivedclass.cpp.o CMakeFiles/studio8.dir/main.cpp.o -o studio8 

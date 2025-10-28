@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/studio9.dir/baseclass.cpp.o CMakeFiles/studio9.dir/derivedclass.cpp.o CMakeFiles/studio9.dir/main.cpp.o -o studio9 
